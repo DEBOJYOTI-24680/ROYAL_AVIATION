@@ -1,0 +1,931 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .header-sec{
+        position: sticky;
+        z-index: 999;
+        left: 0;
+        top: 0;
+        right: 0;
+        background-color: var(--first-color);
+        width: 100%;
+    }
+    .nav-right{
+        display: none;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        min-height: 100vh;
+        background-color: var(--first-color);
+        position: absolute;
+        left: 0;
+        top: 100px;
+        z-index: 999;
+        padding: 20px 0;
+        display: none;
+    }
+    .nav-links li{
+        font-size: 22px;
+        margin: 25px 0;
+    }
+    .nav-logo{
+        width: 129px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 25px;
+    }
+    .banner-child{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-child h1{
+        font-size: 40px;
+    }
+    .banner-child p{
+        font-size: 16px;
+    }
+    .banner-child .cmn-btn{
+        font-size: 18px;
+        padding: 11px 21px;
+    }
+    .about-sec{
+        padding-block: 70px;
+    }
+    .about-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .about-head{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .about-head h2{
+        font-size: 30px;
+    }
+    .about-head p{
+        font-size: 18px;
+    }
+    .about-left, .about-right{
+        flex-basis: 100%;
+        padding: 0 15px;
+    }
+    .about-text .cmn-btn{
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+    .about-text p{
+        font-size: 18px;
+    }
+    .second .about-text{
+        text-align: center;
+    }
+    .about-child:nth-child(odd){
+        flex-direction: column;
+    }
+    .about-text h3{
+        font-size:30px;
+    }
+    .about-left{
+        margin-bottom: 60px;
+    }
+    .about-child::after{
+        border: 3px solid var(--ninth-color);
+        width: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-child:nth-child(odd)::after{
+        left: 50%;
+    }
+    .table-sec{
+        padding-bottom: 50px;
+    }
+    .table-head{
+        width: 100%;
+    }
+    .table-head h2{
+        font-size: 30px;
+    }
+    .table-head p{
+        font-size: 18px;
+    }
+    table,
+    thead,
+    tbody,
+    tr,
+    td,
+    th {
+        display: block;
+        width: 100%;
+    }
+    thead {
+        display: none;
+    }
+    tbody tr {
+        margin-bottom: 20px;
+    }
+    tbody td {
+        display: flex;
+        justify-content: space-between;
+        text-align: right;
+        padding: 12px 15px;
+        font-size: 14px;
+        border: 1px solid rgba(219, 199, 97, 0.35);
+        border-radius: 0;
+    }
+    tbody td:first-child {
+        font-weight: 600;
+        text-align: left;
+        background: var(--third-color);
+        color: var(--sixth-color);
+        border-radius: 15px 15px 0 0;
+    }
+    tbody td:last-child {
+        border-radius: 0 0 15px 15px;
+    }
+    .table-head {
+        width: 100%;
+    }
+    .table-head h2 {
+        font-size: 22px;
+    }
+    .table-head p {
+        font-size: 14px;
+    }
+    .table-child .table-para{
+        font-size: 20px;
+    }
+    .footer-sec{
+        padding-top: 40px;
+    }
+    .footer-child{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cmn-footer{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-logo{
+        display: inline-block;
+        width: 129px;
+    }
+    .footer-1 p{
+        font-size: 20px;
+    }
+    .footer-1 .call-icon{
+        font-size: 20px;
+    }
+    .footer-links li{
+        font-size: 20px;
+    }
+    .footer-head{
+        font-size: 20px;
+    }
+    .footer-medias{
+        justify-content: center;
+    }
+    .footer-location span{
+        font-size: 20px;
+    }
+    .footer-title p{
+        font-size: 20px;
+    }
+    .input-email{
+        font-size: 16px;
+        margin-right: 23px;
+    }
+    .input-email::placeholder{
+        font-size: 16px;
+    }
+    input[type='submit']{
+        font-size: 16px;
+        padding: 7px 10px;
+    }
+    .input-email{
+        height: auto;
+    }
+    form{
+        padding: 6px 6px 6px 21px;
+        margin: 0 auto 104px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header-sec{
+        position: sticky;
+        z-index: 999;
+        left: 0;
+        top: 0;
+        right: 0;
+        background-color: var(--first-color);
+        width: 100%;
+    }
+    .nav-right{
+        display: none;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        min-height: 100vh;
+        background-color: var(--first-color);
+        position: absolute;
+        left: 0;
+        top: 100px;
+        z-index: 999;
+        padding: 20px 0;
+        display: none;
+    }
+    .nav-links li{
+        font-size: 22px;
+        margin: 25px 0;
+    }
+    .nav-logo{
+        width: 139px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 25px;
+    }
+    .banner-child{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-child h1{
+        font-size: 50px;
+    }
+    .banner-child p{
+        font-size: 18px;
+    }
+    .banner-child .cmn-btn{
+        font-size: 20px;
+        padding: 15px 25px;
+    }
+    .about-sec{
+        padding-block: 90px;
+    }
+    .about-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .about-head{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .about-head h2{
+        font-size: 40px;
+    }
+    .about-head p{
+        font-size: 19px;
+    }
+    .about-left, .about-right{
+        flex-basis: 100%;
+        padding: 0 15px;
+    }
+    .about-text .cmn-btn{
+        font-size: 19px;
+        padding: 13px 22px;
+    }
+    .about-text p{
+        font-size: 19px;
+    }
+    .second .about-text{
+        text-align: center;
+    }
+    .about-child:nth-child(odd){
+        flex-direction: column;
+    }
+    .about-text h3{
+        font-size:35px;
+    }
+    .about-left{
+        margin-bottom: 60px;
+    }
+    .about-child::after{
+        border: 4px solid var(--ninth-color);
+        width: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-child:nth-child(odd)::after{
+        left: 50%;
+    }
+    .table-sec{
+        padding-bottom: 100px;
+    }
+    table{
+        min-width: 576px;
+    }
+    .table-head{
+        width: 100%;
+    }
+    .table-head h2{
+        font-size: 40px;
+    }
+    .table-head p{
+        font-size: 19px;
+    }
+    thead th{
+        font-size: 20px;
+        padding: 16px 38px;
+    }
+    tbody td{
+        font-size: 20px;
+    }
+    .table-child .table-para{
+        font-size: 21px;
+    }
+    .footer-sec{
+        padding-top: 45px;
+    }
+    .footer-child{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cmn-footer{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-logo{
+        display: inline-block;
+        width: 139px;
+    }
+    .footer-1 p{
+        font-size: 21px;
+    }
+    .footer-1 .call-icon{
+        font-size: 21px;
+    }
+    .footer-links li{
+        font-size: 21px;
+    }
+    .footer-head{
+        font-size: 21px;
+    }
+    .footer-medias{
+        justify-content: center;
+    }
+    .footer-location span{
+        font-size: 21px;
+    }
+    .footer-title p{
+        font-size: 21px;
+    }
+    .input-email{
+        font-size: 18px;
+        margin-right: 33px;
+    }
+    .input-email::placeholder{
+        font-size: 18px;
+    }
+    input[type='submit']{
+        font-size: 18px;
+        padding: 7px 12px;
+    }
+    .input-email{
+        height: auto;
+    }
+    form{
+        padding: 6px 6px 6px 31px;
+        margin: 0 auto 104px;
+        width: 80%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header-sec{
+        position: sticky;
+        z-index: 999;
+        left: 0;
+        top: 0;
+        right: 0;
+        background-color: var(--first-color);
+        width: 100%;
+    }
+    .nav-right{
+        display: none;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        min-height: 100vh;
+        background-color: var(--first-color);
+        position: absolute;
+        left: 0;
+        top: 100px;
+        z-index: 999;
+        padding: 20px 0;
+        display: none;
+    }
+    .nav-links li{
+        font-size: 24px;
+        margin: 25px 0;
+    }
+    .nav-logo{
+        width: 159px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 28px;
+    }
+    .banner-child{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-child h1{
+        font-size: 60px;
+    }
+    .banner-child p{
+        font-size: 20px;
+    }
+    .banner-child .cmn-btn{
+        font-size: 22px;
+        padding: 18px 28px;
+    }
+    .about-sec{
+        padding-block: 120px;
+    }
+    .about-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .about-head{
+        width: 90%;
+        margin-bottom: 110px;
+    }
+    .about-head h2{
+        font-size: 50px;
+    }
+    .about-head p{
+        font-size: 20px;
+    }
+    .about-left, .about-right{
+        flex-basis: 100%;
+        padding: 0 15px;
+    }
+    .about-text .cmn-btn{
+        font-size: 20px;
+        padding: 14px 24px;
+    }
+    .about-text p{
+        font-size: 20px;
+    }
+    .second .about-text{
+        text-align: center;
+    }
+    .about-child:nth-child(odd){
+        flex-direction: column;
+    }
+    .about-text h3{
+        font-size:40px;
+    }
+    .about-left{
+        margin-bottom: 60px;
+    }
+    .about-child::after{
+        border: 4px solid var(--ninth-color);
+        width: 120px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-child:nth-child(odd)::after{
+        left: 50%;
+    }
+    .table-sec{
+        padding-bottom: 150px;
+    }
+    table{
+        min-width: 768px;
+    }
+    .table-head{
+        width: 100%;
+    }
+    .table-head h2{
+        font-size: 50px;
+    }
+    .table-head p{
+        font-size: 20px;
+    }
+    thead th{
+        font-size: 20px;
+        padding: 16px 38px;
+    }
+    tbody td{
+        font-size: 20px;
+    }
+    .table-child .table-para{
+        font-size: 22px;
+    }
+    .footer-sec{
+        padding-top: 55px;
+    }
+    .footer-child{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cmn-footer{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-logo{
+        display: inline-block;
+        width: 159px;
+    }
+    .footer-1 p{
+        font-size: 22px;
+    }
+    .footer-1 .call-icon{
+        font-size: 22px;
+    }
+    .footer-links li{
+        font-size: 22px;
+    }
+    .footer-head{
+        font-size: 22px;
+    }
+    .footer-medias{
+        justify-content: center;
+    }
+    .footer-location span{
+        font-size: 22px;
+    }
+    .footer-title p{
+        font-size: 22px;
+    }
+    .input-email{
+        font-size: 20px;
+        margin-right: 33px;
+    }
+    .input-email::placeholder{
+        font-size: 20px;
+    }
+    input[type='submit']{
+        font-size: 20px;
+        padding: 9px 14px;
+    }
+    .input-email{
+        height: auto;
+    }
+    form{
+        padding: 6px 6px 6px 31px;
+        margin: 0 auto 104px;
+        width: 80%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header-sec{
+        position: sticky;
+        z-index: 999;
+        left: 0;
+        top: 0;
+        right: 0;
+        background-color: var(--first-color);
+        width: 100%;
+    }
+    .nav-right{
+        display: none;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        min-height: 100vh;
+        background-color: var(--first-color);
+        position: absolute;
+        left: 0;
+        top: 100px;
+        z-index: 999;
+        padding: 20px 0;
+        display: none;
+    }
+    .nav-links li{
+        font-size: 24px;
+        margin: 25px 0;
+    }
+    .nav-logo{
+        width: 169px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 30px;
+    }
+    .banner-child{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .banner-child h1{
+        font-size: 70px;
+    }
+    .banner-child p{
+        font-size: 22px;
+    }
+    .banner-child .cmn-btn{
+        font-size: 24px;
+        padding: 21px 31px;
+    }
+    .about-sec{
+        padding-block: 130px;
+    }
+    .about-child{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .about-head{
+        width: 90%;
+        margin-bottom: 130px;
+    }
+    .about-head h2{
+        font-size: 60px;
+    }
+    .about-head p{
+        font-size: 22px;
+    }
+    .about-left, .about-right{
+        flex-basis: 100%;
+        padding: 0 15px;
+    }
+    .about-text{
+        width: 80%;
+        margin: auto;
+    }
+    .about-text .cmn-btn{
+        font-size: 22px;
+        padding: 16px 26px;
+    }
+    .about-text p{
+        font-size: 22px;
+    }
+    .second .about-text{
+        text-align: center;
+    }
+    .about-child:nth-child(odd){
+        flex-direction: column;
+    }
+    .about-text h3{
+        font-size: 50px;
+    }
+    .about-left{
+        margin-bottom: 60px;
+    }
+    .about-child::after{
+        border: 6px solid var(--ninth-color);
+        width: 140px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-child:nth-child(odd)::after{
+        left: 50%;
+    }
+    .table-sec{
+        padding-bottom: 200px;
+    }
+    table {
+        min-width: 992px;
+    }
+    .table-head{
+        width: 70%;
+    }
+    .table-head h2{
+        font-size: 50px;
+    }
+    .table-head p{
+        font-size: 20px;
+    }
+    thead th{
+        font-size: 22px;
+        padding: 18px 48px;
+    }
+    tbody td{
+        font-size: 22px;
+    }
+    .table-child .table-para{
+        font-size: 23px;
+    }
+    .footer-sec{
+        padding-top: 66px;
+    }
+    .cmn-footer{
+        width: 50%;
+        text-align: center;
+    }
+    .footer-logo{
+        display: inline-block;
+        width: 169px;
+    }
+    .footer-1 p{
+        font-size: 25px;
+    }
+    .footer-1 .call-icon{
+        font-size: 25px;
+    }
+    .footer-links li{
+        font-size: 25px;
+    }
+    .footer-head{
+        font-size: 25px;
+    }
+    .footer-medias{
+        justify-content: center;
+    }
+    .footer-location span{
+        font-size: 25px;
+    }
+    .footer-title p{
+        font-size: 25px;
+    }
+    .input-email{
+        font-size: 25px;
+        margin-right: 33px;
+    }
+    .input-email::placeholder{
+        font-size: 25px;
+    }
+    input[type='submit']{
+        font-size: 25px;
+        padding: 9px 14px;
+    }
+    .input-email{
+        height: auto;
+    }
+    form{
+        padding: 6px 6px 6px 31px;
+        margin: 0 auto 104px;
+        width: 100%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .header-sec{
+        position: sticky;
+        z-index: 999;
+        left: 0;
+        top: 0;
+        right: 0;
+        background-color: var(--first-color);
+        width: 100%;
+    }
+    .nav-right{
+        display: none;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        min-height: 100vh;
+        background-color: var(--first-color);
+        position: absolute;
+        left: 0;
+        top: 100px;
+        z-index: 999;
+        padding: 20px 0;
+        display: none;
+    }
+    .nav-links li{
+        font-size: 24px;
+        margin: 25px 0;
+    }
+    .nav-logo{
+        width: 169px;
+    }
+    .menu-btn{
+        display: block;
+        font-size: 30px;
+    }
+    .banner-child{
+        width: 80%;
+    }
+    .banner-child h1{
+        font-size: 80px;
+    }
+    .banner-child p{
+        font-size: 22px;
+    }
+    .banner-child .cmn-btn{
+        font-size: 24px;
+        padding: 21px 31px;
+    }
+    .about-sec{
+        padding-block: 143px;
+    }
+    .about-head{
+        width: 80%;
+        margin-bottom: 152px;
+    }
+    .about-head h2{
+        font-size: 60px;
+    }
+    .about-head p{
+        font-size: 22px;
+    }
+    .about-left, .about-right{
+        flex-basis: 50%;
+        padding: 0 15px;
+    }
+    .about-text{
+        width: 75%;
+        margin: auto;
+    }
+    .about-text .cmn-btn{
+        font-size: 22px;
+        padding: 16px 26px;
+    }
+    .about-text p{
+        font-size: 22px;
+    }
+    .second .about-text{
+        text-align: right;
+    }
+    .about-child:nth-child(odd){
+        flex-direction: row-reverse;
+    }
+    .about-text h3{
+        font-size: 50px;
+    }
+    .about-left{
+        margin-bottom: 60px;
+    }
+    .table-sec{
+        padding-bottom: 300px;
+    }
+    table {
+        min-width: 1200px;
+    }
+    .table-head{
+        width: 70%;
+    }
+    .table-head h2{
+        font-size: 60px;
+    }
+    .table-head p{
+        font-size: 22px;
+    }
+    thead th{
+        font-size: 24px;
+    }
+    tbody td{
+        font-size: 24px;
+    }
+    .table-child .table-para{
+        font-size: 24px;
+    }
+    .footer-sec{
+        padding-top: 66px;
+    }
+    .cmn-footer{
+        width: 50%;
+        text-align: center;
+    }
+    .footer-logo{
+        display: inline-block;
+        width: 169px;
+    }
+    .footer-1 p{
+        font-size: 25px;
+    }
+    .footer-1 .call-icon{
+        font-size: 25px;
+    }
+    .footer-links li{
+        font-size: 25px;
+    }
+    .footer-head{
+        font-size: 25px;
+    }
+    .footer-medias{
+        justify-content: center;
+    }
+    .footer-location span{
+        font-size: 25px;
+    }
+    .footer-title p{
+        font-size: 25px;
+    }
+    .input-email{
+        font-size: 25px;
+        margin-right: 33px;
+    }
+    .input-email::placeholder{
+        font-size: 25px;
+    }
+    input[type='submit']{
+        font-size: 25px;
+        padding: 9px 14px;
+    }
+    .input-email{
+        height: auto;
+    }
+    form{
+        padding: 6px 6px 6px 31px;
+        margin: 0 auto 104px;
+        width: 100%;
+    }
+}
